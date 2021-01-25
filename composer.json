@@ -17,5 +17,8 @@
             "App\\": "src/"
         },
         "files": [ "helpers.php" ]
+    },
+    "scripts": {
+        "dev": "php -S localhost:8080 -t public &>/dev/null & expose share localhost:8080 --subdomain=phbot"
     }
 }
